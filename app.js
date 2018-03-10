@@ -28,12 +28,14 @@ app.get("/", function(req, res) {
 // CREATE - Create a new contact in the DB
 app.post("/createContact", function(req, res) {
   // sanitize the data coming from the contact form
-  req.body.contact = req.sanitize(req.body.contact);
+  req.body.contact.name = req.sanitize(req.body.contact.name);
+  req.body.contact.email = req.sanitize(req.body.contact.email);
+  req.body.contact.message = req.sanitize(req.body.contact.message);
   // create contact
   Contact.create(req.body.contact, function(err, newContact) {
     if (err) {
       res.render("landing");
-      console.log("ERROR while creating new contact message");
+      console.log("ERROR while creating new contact");
     }
     else {
       res.redirect("/"); // go to landing page
