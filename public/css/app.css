@@ -39,6 +39,7 @@
   /*width: 60px;*/
 }
 
-.menu-pricing {
-  margin: 50px auto;
+.food-menu, .contact-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
