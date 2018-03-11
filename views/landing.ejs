@@ -1,57 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<% include partials/header %>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>36TH ELEMENT</title>
-  <!-- bootstrap cdn, includes glyphicons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Caveat:400,700" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="/css/app.css">
-</head>
-
-<body>
-  <!-- My Basic Bootstrap Navbar starts here -->
-  <nav class="navbar navbar-default">
-    <div class="container">
-
-      <div class="navbar-header">
-        <a class="navbar-brand" href="http://36thelement.com/"><img src="/images/logo.png" alt="company logo"></a>
-        <!-- Hamburger Button -->
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <!-- Things inside the Hamburger Button are wrapped inside the div with "collapse navbar-collapse" class -->
-      <div class="collapse navbar-collapse" id="bs-nav-demo">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#menu-link">MENU</a></li>
-          <li><a href="#find-us-link">FIND US</a></li>
-          <li><a href="#contact-link">CONTACT</a></li>
-        </ul>
-      </div>
-
-    </div>
-  </nav>
-  <!-- My Basic Bootstrap Navbar ends here -->
-
+  <!-- Banner -->
   <div class="banner">
     <img src="/images/banner_img3.png" alt="banner image" class="banner-img img-responsive">
     <div class="banner-text">Let's Make Something Together</div>
   </div>
 
+  <!-- Food menu -->
   <div class="bookmark" id="menu-link">
     <img src="/images/bookmark_shape2.png" alt="menu" class="bookmark-img img-responsive center-block">
     <div class="bookmark-text">THE MENU</div>
   </div>
 
-  <!-- Food menu -->
   <div class="container food-menu">
 
     <div class="row">
@@ -147,39 +107,4 @@
     </div>
   </div>
 
-  <!-- Footer -->
-  <div id="footer">
-    <div class="container">
-
-      <div class="row footer-content">
-        <div class="col-md-3 col-xs-4">
-          <div>New York Restaurant</div>
-          <div class="address">3926 Anmoore Road</div>
-          <div class="address">New York, NY 10014</div>
-          <div>718-749-1714</div>
-        </div>
-        <div class="col-md-3 col-xs-4">
-          <div>France Restaurant</div>
-          <div class="address">68, rue de la Couronne</div>
-          <div class="address">75002 PARIS</div>
-          <div>02.94.23.69.56</div>
-        </div>
-        <div class="col-md-3 col-xs-4">
-          <div>Blog</div>
-          <div>Careers</div>
-          <div>Privacy Policy</div>
-          <div>Contact</div>
-        </div>
-        <div class="col-md-3 footer-logo">
-          <a class="navbar-brand" href="http://36thelement.com/"><img src="/images/logo.png" alt="company logo"></a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+  <% include partials/footer %>
