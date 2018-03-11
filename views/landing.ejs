@@ -35,27 +35,88 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
+
     </div>
   </nav>
   <!-- My Basic Bootstrap Navbar ends here -->
+
+  <img src="/images/banner_img3.png" alt="banner image" class="banner img-responsive">
+  <img src="/images/bookmark_shape2.png" alt="menu" class="bookmark img-responsive center-block">
+
+  <!-- Food menu -->
+  <div class="container">
+
+    <div class="menu-pricing row-fluid">
+      <div class="col-md-6 box">
+        <div class="row-fluid">
+          <div class="col-xs-10">
+            <div class="title">Lorem ipsum dolor sit.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$15</div>
+
+          <div class="col-xs-10">
+            <div class="title">Metus Lorem</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$18</div>
+          <div class="col-xs-10">
+            <div class="title">Donec sodales magna.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$21</div>
+          <div class="col-xs-10">
+            <div class="title">Saugue velit cursus.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$14</div>
+        </div>
+      </div>
+      <div class="col-md-6 box">
+        <div class="row-fluid">
+          <div class="col-xs-10">
+            <div class="title">Arcu pede enim justo.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$15</div>
+          <div class="col-xs-10">
+            <div class="title">Cras dapibussemper nisi.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$12</div>
+          <div class="col-xs-10">
+            <div class="title">Quam semper libero.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$17</div>
+          <div class="col-xs-10">
+            <div class="title">Nam eget dui Etiam.</div>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="price col-xs-2 text-right">$19</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <h3>contact form</h3>
 
   <form action="/createContact" method="post">
 
-      <label for="name">NAME:</label>
-      <input type="text" placeholder="Name" name="contact[name]" id="name" required>
+    <label for="name">NAME:</label>
+    <input type="text" placeholder="Name" name="contact[name]" id="name" required>
 
-      <label for="email">EMAIL:</label>
-      <input type="text" placeholder="Email address" name="contact[email]" id="email" required>
+    <label for="email">EMAIL:</label>
+    <input type="text" placeholder="Email address" name="contact[email]" id="email" required>
 
-      <label for="message">MESSAGE:</label>
-      <input type="text" placeholder="Your message" name="contact[message]" id="message" required>
+    <label for="message">MESSAGE:</label>
+    <textarea placeholder="Your message" name="contact[message]" id="message" required></textarea>
 
-      <button type="submit">Submit</button>
+    <button type="submit">Submit</button>
   </form>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>

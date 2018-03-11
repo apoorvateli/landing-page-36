@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-brand {
   height: 85px;
 }
@@ -23,3 +28,17 @@
 /*   padding-top: 10px;*/
 /*  padding-bottom: 10px;*/
 /*}*/
+
+/*.banner {*/
+/*  width: 100%;*/
+/*}*/
+
+.bookmark {
+  /*display: block;*/
+  /*margin: 0 auto;*/
+  /*width: 60px;*/
+}
+
+.menu-pricing {
+  margin: 50px auto;
+}
