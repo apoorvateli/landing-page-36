@@ -35,14 +35,12 @@
 
 .navbar-brand>img {
   height: 100%;
-  /* padding: 15px; */
   width: auto;
 }
 
-.banner, .bookmark, .map-box {
+.banner, .bookmark, #find-us-link {
   position: relative;
 }
-
 
 /* Banner css start */
 
@@ -71,12 +69,12 @@
 /* Banner css end */
 
 .food-menu, .contact-form, .footer-content {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 60px;
 }
 
 .item {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .box1, .box2 {
@@ -100,6 +98,7 @@
   width: 180px;
   background-color: #f34949;
   margin-right: 44px;
+  margin-bottom: 40px;
 }
 
 .form-group.required .control-label:after {
@@ -117,6 +116,11 @@
   padding-right: 44px;
 }
 
+.message {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #map {
   width: 100%;
   height: 400px;
@@ -124,10 +128,35 @@
 
 .map-text {
   position: absolute;
+  /*center vertically*/
   top: 0%;
   /*center horizontally*/
   width: 100%;
   color: #FFF;
+}
+
+#footer {
+  background-color: #3B3B3B;
+  color: #FFF;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.address {
+  color: lightgray;
+}
+
+#find-us-link {
+  background-color: #3B3B3B;
+}
+
+.footer-logo .navbar-brand>img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+input[type="text"], #message {
+  background-color: #DFE0DA;
 }
 
 @media (max-width: 992px) {
@@ -143,5 +172,12 @@
   }
   .btn-danger {
     width: inherit;
+  }
+  .footer-logo {
+    padding: 0;
+  }
+
+  .message {
+    margin-top: 0;
   }
 }
