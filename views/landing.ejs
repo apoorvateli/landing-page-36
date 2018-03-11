@@ -14,7 +14,7 @@
 
 <body>
   <!-- My Basic Bootstrap Navbar starts here -->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default">
     <div class="container">
 
       <div class="navbar-header">
@@ -31,9 +31,9 @@
       <!-- Things inside the Hamburger Button are wrapped inside the div with "collapse navbar-collapse" class -->
       <div class="collapse navbar-collapse" id="bs-nav-demo">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">MENU</a></li>
-          <li><a href="#">FIND US</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#menu-link">MENU</a></li>
+          <li><a href="#find-us-link">FIND US</a></li>
+          <li><a href="#contact-link">CONTACT</a></li>
         </ul>
       </div>
 
@@ -46,7 +46,7 @@
     <div class="banner-text">Let's Make Something Together</div>
   </div>
 
-  <div class="bookmark">
+  <div class="bookmark" id="menu-link">
     <img src="/images/bookmark_shape2.png" alt="menu" class="bookmark-img img-responsive center-block">
     <div class="bookmark-text">THE MENU</div>
   </div>
@@ -58,28 +58,28 @@
       <div class="col-md-6 box">
         <div class="row box1">
             <div class="col-xs-10 item">
-              <div class="title">Lorem ipsum dolor sit.</div>
-              <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+              <div class="title">Volupate cillum fugiat.</div>
+              <div class="subtitle">Cheese, tomato, mushrooms, onions.</div>
             </div>
-            <div class="price col-xs-2 text-right">$15</div>
+            <div class="price col-xs-2 text-right">$50</div>
 
             <div class="col-xs-10 item">
               <div class="title">Metus Lorem</div>
-              <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+              <div class="subtitle">Chicken, mozzarella cheese, onions.</div>
             </div>
-            <div class="price col-xs-2 text-right">$18</div>
+            <div class="price col-xs-2 text-right">$62</div>
 
             <div class="col-xs-10 item">
               <div class="title">Donec sodales magna.</div>
               <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
             </div>
-            <div class="price col-xs-2 text-right">$21</div>
+            <div class="price col-xs-2 text-right">$25</div>
 
             <div class="col-xs-10 item">
               <div class="title">Saugue velit cursus.</div>
               <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
             </div>
-            <div class="price col-xs-2 text-right">$14</div>
+            <div class="price col-xs-2 text-right">$30</div>
 
         </div>
       </div>
@@ -87,31 +87,31 @@
         <div class="row box2">
           <div class="col-xs-10 item">
             <div class="title">Arcu pede enim justo.</div>
-            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+            <div class="subtitle">Cheese, tomato, mushrooms, onions.</div>
           </div>
-          <div class="price col-xs-2 text-right">$15</div>
+          <div class="price col-xs-2 text-right">$45</div>
           <div class="col-xs-10 item">
             <div class="title">Cras dapibussemper nisi.</div>
             <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
           </div>
-          <div class="price col-xs-2 text-right">$12</div>
+          <div class="price col-xs-2 text-right">$32</div>
           <div class="col-xs-10 item">
             <div class="title">Quam semper libero.</div>
-            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+            <div class="subtitle">Cheese, tomato, mushrooms, onions.</div>
           </div>
-          <div class="price col-xs-2 text-right">$17</div>
+          <div class="price col-xs-2 text-right">$15</div>
           <div class="col-xs-10 item">
             <div class="title">Nam eget dui Etiam.</div>
-            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+            <div class="subtitle">Chicken, mozzarella cheese, onions.</div>
           </div>
-          <div class="price col-xs-2 text-right">$19</div>
+          <div class="price col-xs-2 text-right">$35</div>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Contact form -->
-  <div class="bookmark">
+  <div class="bookmark" id="contact-link">
     <img src="/images/bookmark_shape2.png" alt="menu" class="bookmark-img img-responsive center-block">
     <div class="bookmark-text">CONTACT</div>
   </div>
@@ -128,7 +128,7 @@
           <input type="text" class="form-control" placeholder="Email address" name="contact[email]" id="email" required>
         </div>
       </div>
-      <div class="form-group required">
+      <div class="form-group required message">
         <label class="control-label" class="control-label" for="message">MESSAGE: </label>
         <textarea class="form-control" rows="4" placeholder="Your message" name="contact[message]" id="message" required></textarea>
       </div>
@@ -137,7 +137,7 @@
   </div>
 
   <!-- Find us -->
-  <div class="map-box">
+  <div class="map-box" id="find-us-link">
     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.15673092042!2d72.82659931465028!3d19.231999986998606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1386f88b143%3A0x523d5e46b11f2a99!2s36th+Element+Technologies+Private+Limited!5e0!3m2!1sen!2sin!4v1520772637982" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="map-text">
       <div class="bookmark">
