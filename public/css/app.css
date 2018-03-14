@@ -155,7 +155,7 @@
   filter: invert(1);
 }
 
-input[type="text"], #message {
+#name, #email, #message {
   background-color: #DFE0DA;
 }
 
