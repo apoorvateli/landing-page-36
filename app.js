@@ -32,13 +32,14 @@ app.post("/createContact", function(req, res) {
   req.body.contact.email = req.sanitize(req.body.contact.email);
   req.body.contact.message = req.sanitize(req.body.contact.message);
   // create contact
+  // Contact.create( dataFromForm, callback )
   Contact.create(req.body.contact, function(err, newContact) {
     if (err) {
       res.render("landing");
       console.log("ERROR while creating new contact");
     }
     else {
-      res.redirect("/"); // go to landing page
+      res.redirect("/#contact-link"); // go to contact page
       console.log("NEW contact added to DB:");
       console.log(newContact);
     }
